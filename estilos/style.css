@@ -31,7 +31,7 @@ section#telefone{
 
     height: 627px;
     width: 311px;
-    background: blue url('../imagens/frame-iphone.png') no-repeat; /*da pra tirar esse contorno azul se quiser*/
+    background: url('../imagens/frame-iphone.png') no-repeat; /*da pra tirar esse contorno azul se quiser*/
 }
 
 iframe#tela{
@@ -41,4 +41,23 @@ iframe#tela{
     width: 266px;
     height: 470px;
 
+}
+
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box; /*pra borda ficar dentro da caixa e o botao nao se mexer na ação do hover */
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px); /*pro botao pular pra fora*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600); /*sombra*/
+    transition: transform 0.3s /*veloc da levantada do botao*/, border 2s /*vel pra borda aparecer*/; 
 }
