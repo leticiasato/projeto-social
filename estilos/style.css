@@ -26,8 +26,8 @@ main{
 section#telefone{
     position: absolute;
     top: 50%;
-    left: 50%; /*assim a vertice que fica no meio*/
-    transform: translate(-50%, -50%); /*assim a img fica*/
+    left: 50%; /*assim, a vertice da img fica no meio*/
+    transform: translate(-50%, -50%); /*assim a img toda fica no meio*/
 
     height: 627px;
     width: 311px;
